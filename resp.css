@@ -1,0 +1,1234 @@
+@media only screen and (max-width: 575.98px) {
+    .hero_header nav {
+        padding: 0.7rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero_header nav .logo img {
+        width: 111px;
+    }
+
+    .hero_header nav .contact_btn {
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        border: 1px solid #fff;
+        font-size: .75rem;
+    }
+
+    .hero_header nav .contact_btn a {
+        text-decoration: none;
+        color: #fff;
+        font-size: .9rem;
+        text-transform: uppercase;
+    }
+
+    .hero_content {
+        margin: 3rem 0rem 5rem 0rem;
+        padding: 0rem 0.3rem;
+    }
+
+    .hero_header {
+        position: relative;
+    }
+
+    .hero_content h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #fff;
+        font-family: var(--font-family);
+        text-transform: uppercase;
+    }
+
+    .hero_content h2 span {
+        display: inline;
+        color: var(--primary);
+    }
+
+    .hero_content p {
+        font-size: 0.64rem;
+        font-weight: 400;
+        color: #fff;
+        width: 100%;
+    }
+
+    .second {
+        margin-top: -3.5rem;
+    }
+
+    .second .row:nth-of-type(1) {
+        margin-top: 2rem;
+        padding: 0rem 0rem;
+        justify-content: space-between;
+    }
+
+    .second .row:nth-of-type(1) h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #000;
+        font-family: var(--font-family);
+        text-transform: capitalize;
+    }
+
+    .second .row:nth-of-type(1) p {
+        font-size: 1rem;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .second_info_content {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .second_info_content .bx {
+        width: 100%;
+        background: #F4F5F7;
+        padding: 2rem 2rem;
+        min-height: 280px;
+    }
+
+    .second_info_content .bx img {
+        width: 70px;
+        margin-bottom: 1rem;
+    }
+
+    .second .btn_button {
+        margin-top: 2rem;
+    }
+
+    button.btn_button {
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #fff;
+        background: #304D77;
+        box-shadow: inset 1px 1px 11px #0000008c;
+        border-radius: 3rem;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+    }
+
+    .hightlight_heading h2 {
+        font-family: var(--font-family);
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1rem 1.5rem;
+        background: -webkit-linear-gradient(left, #304D77, #6395DE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hightlight_heading {
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .third {
+        margin-top: 0rem;
+        background: #000;
+        padding: 3rem 0;
+    }
+
+    .third .left_bx div h2 {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 400;
+        font-family: var(--font-family);
+        margin: 0;
+    }
+
+    .third .left_bx div h2 span {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .third .left_bx div {
+        position: absolute;
+        top: 6%;
+        left: 5%;
+        width: 72%;
+        text-align: right;
+    }
+
+    .third .left_bx div p {
+        color: #fff;
+        text-align: left;
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    .third .left_bx .btn_button {
+        display: none;
+    }
+
+    .third .right_bx {
+        margin-top: 2rem;
+    }
+
+    .third .right_bx .third_content div img {
+        width: 125px;
+    }
+
+    .third .third_bttom {
+        margin: 3rem 0 1rem 0;
+        padding: 0 1rem;
+    }
+
+    .third .right_bx .third_content div p {
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: .8rem;
+    }
+
+    .third .third_bttom h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: var(--font-family);
+        color: #fff;
+        text-align: center;
+    }
+
+    .third .h-100 {
+        height: auto !important;
+    }
+
+    .third .third_bttom p {
+        font-size: 1rem;
+        color: #fff;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .four {
+        background-color: #000;
+        padding: 2rem 0;
+    }
+
+    .four h2 span {
+        display: inline;
+    }
+
+    .four h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+    }
+
+    .five img {
+        width: 45%;
+    }
+
+    .five h2 {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 400;
+        font-family: var(--font-family);
+        text-transform: capitalize;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .video_review .item iframe {
+        height: 350px;
+    }
+
+    .six {
+        padding: 2rem 0;
+        background: #000;
+    }
+
+    .six h2 {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: var(--font-family);
+    }
+
+    .seven h2 {
+        text-align: center;
+        font-size: 1.9rem;
+        font-weight: 500;
+        font-family: var(--font-family);
+        color: #fff;
+    }
+
+    .seven .owl-nav {
+        display: none;
+    }
+
+    .cars_logos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        gap: 15px;
+    }
+
+    .cars_logos img {
+        width: 10% !important;
+    }
+
+    .eight {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .eightOne,
+    .eightTwo {
+        padding-left: 1rem;
+    }
+
+    .eightOne {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .eightOne h2 {
+        font-family: var(--font-family);
+        font-size: 2.3rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .eightOne div {
+        background: #4F75A8;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0;
+    }
+
+    .eightOne div p {
+        margin: 0;
+        font-size: 1rem;
+        color: #fff;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .eightTwo div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border-bottom: 1px solid #000;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .eightTwo div p {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .eightTwo div h2 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .nine {
+        padding: 3rem 0;
+        background-color: #000;
+    }
+
+    .nine h2 {
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .nine p {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .ten_content h2 span {
+        font-weight: 700;
+        display: block;
+    }
+
+    .ten_content h2 {
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        font-family: var(--font-family);
+        padding: 0 2rem;
+    }
+
+
+    .ten button.btn_button {
+        padding: 0.6rem 1rem;
+        font-size: 0.7rem;
+    }
+
+    .ten_content p {
+        color: #fff;
+        margin-top: 0.2rem;
+        font-size: 0.75rem;
+        font-weight: 400;
+        margin-bottom: 0rem;
+    }
+
+    .ten {
+        padding: 3rem 0;
+        background: #000;
+        position: relative;
+        text-align: center;
+    }
+
+    .ten_content .btn_button {
+        font-size: .9rem;
+        padding: 0.7rem 1rem;
+    }
+
+    .ten img:nth-of-type(1) {
+        display: none;
+    }
+
+    .eleven {
+        background-color: #000;
+        padding: 3rem 0;
+    }
+
+    .eleven .heading h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #fff;
+        font-family: var(--font-family);
+    }
+
+    .el_left_bx .form-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .el_left_bx .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .el_right_bx {
+        border: 1px solid var(--primary);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .eleven button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .el_right_bx .btn_button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 1.5rem;
+        margin-bottom: 0rem;
+        background: #fff;
+        color: #000;
+    }
+
+    .el_right_bx h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        font-family: var(--font-family);
+        color: var(--primary);
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .el_left_bx .form-group input,
+    .el_left_bx .form-group textarea {
+        background: #151515;
+        outline: none;
+        border: none;
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+        width: 100%;
+        color: #fff;
+    }
+
+    .el_left_bx {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .thankyou p {
+        font-size: 1rem;
+    }
+
+    .hero_content {
+        margin: 3rem 0rem 13rem 0rem;
+        padding: 0rem 0rem;
+    }
+
+    .hero_content h2 {
+        font-size: 3rem;
+    }
+
+    .hero_content h2 span {
+        display: inline;
+    }
+
+    .hero_content p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .second .row:nth-of-type(1) {
+        margin-top: 2rem;
+        padding: 0rem 0rem;
+        justify-content: space-between;
+    }
+
+    .second .row:nth-of-type(1) h2 {
+        font-size: 2.5rem;
+    }
+
+    .second .row:nth-of-type(1) p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .second_info_content {
+        margin-top: 2rem;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .second_info_content .bx {
+        width: 49.5%;
+        background: #F4F5F7;
+        padding: 2rem 2rem;
+        min-height: 300px;
+    }
+
+    .second_info_content .bx img {
+        width: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .second .btn_button {
+        margin-top: 2rem;
+    }
+
+    .hightlight_heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .third {
+        margin-top: 0rem;
+        background: #000;
+        padding: 3rem 0;
+    }
+
+    .third .left_bx div h2 {
+        font-size: 2.2rem;
+    }
+
+    .third .left_bx div h2 span {
+        display: block;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .third .left_bx div p {
+        font-size: 1rem;
+    }
+
+    .third .left_bx div {
+        position: absolute;
+        top: 7%;
+        left: 4%;
+        width: 72%;
+        text-align: right;
+    }
+
+    .third .left_bx {
+        margin-bottom: 2rem;
+    }
+
+    .third_content div img {
+        width: 100px;
+    }
+
+    .third .third_bttom {
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+
+    .third .third_bttom h2 {
+        font-size: 2.5rem;
+    }
+
+    .third .third_bttom p {
+        font-size: 1.5rem;
+    }
+
+    .four {
+        background-color: #000;
+        padding: 2rem 0;
+    }
+
+    .four h2 {
+        font-size: 2.4rem;
+    }
+
+    .video_review .item iframe {
+        min-height: 400px;
+    }
+
+    .five h2 {
+        font-size: 2.2rem;
+    }
+
+    .six {
+        padding: 3rem 0;
+        background: #000;
+    }
+
+    .six h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .seven {
+        background: #000;
+        padding: 3rem 0;
+    }
+
+    .seven h2 {
+        font-size: 2.5rem;
+    }
+
+    .cars_logos img {
+        width: 10%;
+    }
+
+    .eight {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .eightOne,
+    .eightTwo {
+        padding-left: 1rem;
+    }
+
+    .eightOne {
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .eightOne h2 {
+        font-family: var(--font-family);
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    .eightOne div {
+        width: 100%;
+    }
+
+    .eightOne div p {
+        font-size: 1.2rem;
+    }
+
+    .eightTwo div {
+        gap: 2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .eightTwo div p {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .eightTwo div h2 {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    .nine {
+        padding: 3rem 0;
+        background-color: #000;
+    }
+
+    .nine h2 {
+        font-size: 2.2rem;
+    }
+
+    .nine p {
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 1rem;
+    }
+
+    .ten {
+        padding: 3rem 0;
+    }
+
+    .ten_content h2 {
+        font-size: 2rem;
+    }
+
+    .ten_content h2 span {
+        display: inline;
+    }
+
+    .ten_content button {
+        font-size: .9rem;
+        padding: 0.5rem .75rem;
+    }
+
+    .ten_content p {
+        margin-top: 0rem;
+        font-size: 1rem;
+    }
+
+    .eleven {
+        background-color: #000;
+        padding: 2rem 0;
+    }
+
+    .el_left_bx .form-row {
+        margin-bottom: 0rem;
+        flex-wrap: wrap;
+    }
+
+    .el_left_bx .form-group {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .eleven button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+    }
+
+    .el_left_bx {
+        margin-top: 3rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .second .row:nth-of-type(1) h2 {
+        font-size: 1.5rem;
+    }
+
+    .second .row:nth-of-type(1) p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .third .left_bx div h2 {
+        font-size: 2.5rem;
+    }
+
+    .third .left_bx div p {
+        font-size: .95rem;
+    }
+
+    .third .left_bx {
+        margin-bottom: 3rem;
+    }
+
+    .third .third_bttom h2 {
+        font-size: 2.2rem;
+    }
+
+    .third .third_bttom p {
+        font-size: 1.2rem;
+    }
+
+    .five img {
+        width: 30%;
+    }
+
+    .six .text_review .testimonial-card {
+        min-height: 504px;
+    }
+
+    .eightOne h2 {
+        font-size: 2rem;
+    }
+
+    .eightOne div {
+        width: 50%;
+    }
+
+    .eightOne div p {
+        font-size: 1rem;
+    }
+
+    .nine h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .nine p {
+        font-size: 1.5rem;
+        color: #fff;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .ten_content {
+        padding: 0 1rem;
+    }
+
+    .el_left_bx .form-group {
+        width: 49%;
+        margin-bottom: 2rem;
+    }
+
+    .third .left_bx .btn_button {
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+        display: none;
+    }
+
+    .ten img:nth-of-type(1) {
+        display: none;
+    }
+
+    .second {
+        margin-top: -10rem;
+        position: relative;
+        z-index: 99;
+    }
+
+    .hero_content h2 span {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .thankyou p {
+        font-size: 2rem;
+    }
+
+    .second .row:nth-of-type(1) h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero_content h2 {
+        font-size: 4rem;
+    }
+
+    .hero_content p {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .second .row:nth-of-type(1) p {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    .third .left_bx div h2 {
+        font-size: 2.7rem;
+    }
+
+    .third .left_bx div h2 span {
+        display: block;
+        font-size: 2.7rem;
+        font-weight: 600;
+    }
+
+    .third .left_bx div p {
+        font-size: .85rem;
+    }
+
+    .third .right_bx .third_content div h2 {
+        font-size: 1.5rem;
+    }
+
+    .third .right_bx .third_content div p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .third .third_bttom {
+        margin: 1rem 0 2rem 0;
+        padding: 0 1rem;
+    }
+
+    .third .third_bttom h2 {
+        font-size: 2.5rem;
+    }
+
+    .third .third_bttom p {
+        font-size: 1.5rem;
+    }
+
+    .six .text_review .testimonial-card {
+        min-height: 550px;
+    }
+
+    .cars_logos img {
+        width: 12%;
+    }
+
+    .eightOne h2 {
+        font-size: 2.5rem;
+    }
+
+    .eightOne div p {
+        font-size: 1.3rem;
+    }
+
+    .eightTwo div h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .eightTwo div p {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .nine h2 {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .nine p {
+        font-size: 1.9rem;
+        color: #fff;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .ten_content {
+        padding: 0 3rem;
+    }
+
+    .ten_content h2 {
+        font-size: 2.5rem;
+    }
+
+    .ten_content button {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+
+    .ten_content p {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+
+
+    .el_right_bx h2 {
+        font-size: 1.5rem;
+    }
+
+    .eleven button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 1rem;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .el_right_bx {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .eleven button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .ten img:nth-of-type(1) {
+        display: block;
+    }
+
+    .ten img:nth-of-type(2) {
+        display: none;
+    }
+
+    .eleven .btn_button {
+        /* margin: auto; */
+        border: none;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+
+    }
+
+    .hero_content h2 span {
+        display: block;
+    }
+
+    .third .left_bx div p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero_content p {
+        font-size: 1.8rem;
+        width: 72%;
+    }
+
+    .hero_header nav .logo img {
+        width: 190px;
+    }
+
+    .second .row:nth-of-type(1) h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero_content h2 span {
+        display: block;
+    }
+
+    .second .row:nth-of-type(1) p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .second_info_content .bx {
+        width: 24.5%;
+        background: #F4F5F7;
+        padding: 2rem 2rem;
+        min-height: 300px;
+    }
+
+    .second .btn_button {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .hightlight_heading h2 {
+        font-size: 2.8rem;
+    }
+
+    .third .left_bx div h2 {
+        font-size: 2.5rem;
+    }
+
+    .third .left_bx div h2 span {
+        display: block;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .third .left_bx div p {
+        font-size: 1rem;
+    }
+
+    .third .right_bx .third_content div h2 {
+        font-size: 1.75rem;
+    }
+
+    .third .right_bx .third_content div p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .third_content div img {
+        width: 100px;
+    }
+
+    .third .right_bx {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .third .left_bx .btn_button {
+        font-size: 1.5rem;
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .third .third_bttom h2 {
+        font-size: 3.5rem;
+    }
+
+    .third .third_bttom p {
+        font-size: 2rem;
+    }
+
+    .four h2 {
+        font-size: 3.4rem;
+    }
+
+    .five h2 {
+        font-size: 2.5rem;
+    }
+
+    .six h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .six .text_review .testimonial-card {
+        min-height: 435px;
+    }
+
+    .seven h2 {
+        font-size: 3.5rem;
+    }
+
+    .cars_logos img {
+        width: 7%;
+    }
+
+    .eightOne h2 {
+        font-size: 3.5rem;
+    }
+
+    .eightOne div p {
+        font-size: 1.8rem;
+    }
+
+    .eightTwo div h2 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .eightTwo div p {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .nine h2 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .nine p {
+        font-size: 2.5rem;
+        color: #fff;
+        margin-top: 1rem;
+        text-align: left;
+    }
+
+    .ten_content h2 span {
+        display: block;
+    }
+
+    .ten_content h2 {
+        font-size: 3.5rem;
+    }
+
+    .ten_content button {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .ten_content p {
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+    }
+
+    .eleven button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .el_right_bx h2 {
+        font-size: 2rem;
+    }
+
+    .el_left_bx button {
+        margin-top: 0rem;
+        border: none;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .hero_content {
+        margin: 3rem 0rem 13rem 0rem;
+        padding: 0rem 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .third .left_bx div h2 {
+        font-size: 3rem;
+    }
+
+    .third .left_bx div h2 span {
+        display: block;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .third .left_bx div p {
+        font-size: 1.2rem;
+    }
+
+    .third .left_bx div {
+        position: absolute;
+        top: 7%;
+        left: 4%;
+        width: 60%;
+        text-align: right;
+    }
+
+    .third .third_bttom {
+        margin: 3rem 0 2rem 0;
+        padding: 0 1rem;
+    }
+}
