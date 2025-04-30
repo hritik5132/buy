@@ -118,7 +118,7 @@
               <div class="left_bx">
                 <img src="img/timage1.png" alt="" class="img-fluid" />
                 <div>
-                  <h2>What we <span>do at carOracle?</span></h2>
+                  <h2>What we <span>do at CarOracle?</span></h2>
                   <p>
                     CarOracle is your personal car-buying advocate. Whether
                     you’re leasing or buying, we handle the entire process,
@@ -623,13 +623,13 @@
       <section class="eleven" id="contact">
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
               <div class="heading">
                 <h2>Contact us</h2>
               </div>
-            </div>
+            </div> -->
             <div class="col-lg-7 order-1 order-lg-0">
-              <div class="el_left_bx">
+              <!-- <div class="el_left_bx">
                 <form class="dark-form company_form">
                   <div class="form-row">
                     <div class="form-group">
@@ -678,11 +678,11 @@
                     Submit
                   </button>
                 </form>
-              </div>
+              </div> -->
             </div>
-            <div class="col-lg-4 order-0 order-lg-1">
+            <div class="col-lg-8 m-auto order-0 order-lg-1">
               <div class="el_right_bx">
-                <img src="img/form_img.png" alt="" class="img-fluid" />
+                <img src="img/form_img.png" alt="" class="img-fluid w-50 m-auto" />
                 <h2>Car buying, finally on your terms.</h2>
                 <a href="#form" class="btn_button">
                   Schedule your free call today
@@ -746,36 +746,6 @@
             items: 3,
           },
         },
-      });
-    </script>
-
-    <!-- mail -->
-    <script type="text/javascript">
-      $(".company_form").submit(function (e) {
-        e.preventDefault();
-        var formData = new FormData(this);
-        $.ajax({
-          url: "mailprocess.php",
-          type: "POST",
-          contentType: false,
-          processData: false,
-          data: formData,
-          beforeSend: function () {
-            $(".appoint").attr("disabled", true);
-            $(".appoint").val("Please wait...");
-          },
-          success: function (data) {
-            console.log(data);
-            if (data == 1) {
-              $(".company_form").trigger("reset");
-              window.location = "thankyou.html";
-            } else {
-              alert(data);
-            }
-          },
-        }).done(function () {
-          $(".appoint").attr("disabled", false);
-        });
       });
     </script>
   </body>
