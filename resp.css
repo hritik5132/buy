@@ -1,13 +1,27 @@
 @media only screen and (max-width: 575.98px) {
 
+
+    .testimonial-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2rem;
+        background: #fff;
+        border-radius: 1rem;
+        max-width: max-content;
+    }
+
     .copy .col-md-4 {
         margin: auto;
     }
 
     .copy span {
-        font-size: .85rem ;
+        font-size: .85rem;
         text-align: center;
     }
+
     .copy a {
         font-size: .75rem;
         padding: .3rem;
